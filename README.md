@@ -1,4 +1,4 @@
-Random identify generator
+Random identity generator
 
 Randomly choose gender, name, lastName and email.
 
