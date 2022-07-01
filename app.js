@@ -22,7 +22,7 @@ for (let i = 0; i < 20; i++) {
     person.name = randChoice([...maleNames, ...femaleNames]);
   }
   person.lastName = randChoice(lastNames);
-  person.email = `${person.name}.${person.lastName}@gmail.com`
+  person.email = `${person.name.toLowerCase()}.${person.lastName.toLowerCase()}@gmail.com`
 
   people.push(person);
 }
