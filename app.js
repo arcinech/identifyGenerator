@@ -1,6 +1,6 @@
 const fs = require('fs');
 
-const genders = ['male','female','nobinary'];
+const genders = ['male','female','nonbinary'];
 const maleNames = ['Frank', 'Edward', 'Bob', 'Joe', 'John'];
 const femaleNames = ['Alice', 'Ann', 'Sophia', 'Reachel', 'Jo', 'Rose'];
 const lastNames = ['Random', 'Juicy', 'Frankenstain', 'Texas', 'Washington', 'Rose'];
